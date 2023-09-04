@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>практика 3.6 Часть 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="calculate">
+            <div class="wrapper">
+                <h2>Calculate</h2>
+                <from action="#" id="form">
+                    <div class="form-row"> <!--создаем строку,пэ row-->
+                        <div class="input-block">
+                            <label for="textA">Введите число A: </label>
+                            <input type="text" name="textA" value="0" id="textA">
+                        </div>
+                        <div class="input-block">
+                            <label for= "textB">Введите число B: </label>
+                            <input type= "text" name="textB" value="0" id="textB">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-block">
+                            <label for="sumAB">A+B= </label>
+                            <input type="text" name="sumAB" value="0" id="sumAB">
+                        </div>
+
+                        <div class="input-block">
+                            <label for= "minusAB">A-B= </label>
+                            <input type= "text" name="minusAB" value="0" id="minusAB">
+                        </div>
+
+                        <div class="input-block">
+                            <label for="multiAB">A*B= </label>
+                            <input type="text" name="multiAB" value="0" id="multiAB">
+                        </div>
+
+                        <div class="input-block">
+                            <label for= "divisionAB">A/B= </label>
+                            <input type= "text" name="divisionAB" value="0" id="divisionAB">
+                        </div>
+                    </div>
+                    
+                     <div class="form-row"> <!--создаем кнопку для порцесса отчета-->
+                        <input type="submit" value="Calculate" id="submit">
+                    </div>
+                </from>
+            </div>
+        </section>
+
+        <section class="authorzation">
+            <div class="wrapper">
+                <h2>Authorzation</h2>
+                <form action="#">
+                    <div class="input-block">
+                        <label for="formLogin">Введите ваш логин: </label>
+                        <input type="email" name="login" id="formLogin" placeholder="example@mail.com">
+                    </div>
+
+                    <div class="input-block">
+                        <label for="formPassword">Введите ваш пароль: </label>
+                        <input type="password" name="password" id="formPassword">
+                    </div>
+
+                    <div class="input-block">
+                        <input type="submit" value="Authorzation" id="submitAuthorzation">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
